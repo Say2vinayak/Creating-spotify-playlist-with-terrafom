@@ -1,7 +1,4 @@
 # Creating Multiple Spotify Playlists Using Terraform
-
-https://youtu.be/LjJLZRi_zGU
-
 ## Project Overview
 
 This project involves using Terraform to create multiple Spotify playlists for different occasions like morning, evening, party night, etc. Terraform will be used to automate the creation and management of these playlists.
@@ -78,10 +75,6 @@ Make sure Docker Desktop is running, and start the authorization proxy server:
 docker run --rm -it -p 27228:27228 --env-file ./.env ghcr.io/conradludgate/spotify-auth-proxy
 
 ```
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/84ad6f6a-681d-4a55-a9be-d328db326720/b3f4a8b1-3a7c-4837-b4f7-477d63f8652a/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/84ad6f6a-681d-4a55-a9be-d328db326720/e3320b06-8ac2-4a2b-a6dd-449746bc1c61/Untitled.png)
 
 ### You should get “Authorization Successful” Message.
 
